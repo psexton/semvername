@@ -50,7 +50,7 @@ FAQ
 
 Q. Why not allow Unicode? Or spaces?
 
-A. Thank you, that is a great question. I understand that characters such as the Danish & Norwegian ø is just as much a "real" letter as q is in English, and that it's arbitrary and insensitive to omit those. And I have a dream that someday ASCII will be as faint of a memory as EBCDIC is today, and UTF-8 will be The One True Encoding. Someday, when I'm old and gray and all of my code is rotting away, perhaps that will be true.
+A. Thank you, that is a great question. I understand that characters such as the Danish & Norwegian ø are just as much "real" letters as q is in English, and that it's arbitrary and insensitive to omit those. And I have a dream that someday ASCII will be as faint of a memory as EBCDIC is today, and UTF-8 will be The One True Encoding. Someday, when I'm old and gray and all of my code is rotting away, perhaps that will be true.
 
 In the meantime, restricting the character set for a valid SemVerName allows them to exist damn near anywhere: as identifiers in URLs, and as filenames on even the most awkward of filesystems.
 
