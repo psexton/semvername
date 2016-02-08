@@ -25,6 +25,8 @@ The syntax for a semvername is very simple. A valid SemVerName has the form:
 
 `NAME-SEMVER`
 
+In other words, a name part, followed by a hyphen, followed by a semver part. The definition of "name" and "semver" differ depending on the version of SemVerName you are using. (Yes, the SemVerName format is semantically versioned, just like the SemVer format is.)
+
 ### 2.0.0
 
 * `NAME` consists of lowercase letters, digits, hyphens, and underscores. It cannot be empty or begin with a hyphen or underscore.
@@ -35,7 +37,13 @@ The syntax for a semvername is very simple. A valid SemVerName has the form:
 * `NAME` consists of alphanumeric characters, hyphens, and underscores.
 * `SEMVER` is a string that conforms to version 1.0.0 of SemVer.
 
-(Yes, the SemVerName format is semantically versioned, just like the SemVer format is.)
+### Terms
+
+* lowercase letter: U+0061 to U+007A, inclusive.
+* digits: U+0030 to U+0039, inclusive.
+* hyphen: U+002D.
+* underscore: U+005F.
+* alphanumeric character: U+0030 to U+0039, inclusive, or U+0041 to U+005A, inclusive, or U+0061 to U+007A, inclusive.
 
 FAQ
 ---
