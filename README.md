@@ -29,7 +29,7 @@ In other words, a name part, followed by a hyphen, followed by a semver part. Th
 
 ### 2.0.0
 
-* `NAME` consists of lowercase letters, digits, hyphens, and underscores. It cannot be empty or begin with a hyphen or underscore.
+* `NAME` consists of lowercase Latin letters, digits, hyphens, and underscores. It cannot be empty or begin with a hyphen or underscore.
 * `SEMVER` is a string that conforms to version 2.0.0 of SemVer.
 
 ### 1.0.0
@@ -39,7 +39,7 @@ In other words, a name part, followed by a hyphen, followed by a semver part. Th
 
 ### Terms
 
-* lowercase letter: U+0061 to U+007A, inclusive.
+* lowercase Latin letter: U+0061 to U+007A, inclusive.
 * digits: U+0030 to U+0039, inclusive.
 * hyphen: U+002D.
 * underscore: U+005F.
