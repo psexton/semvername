@@ -23,12 +23,17 @@ Syntax
 
 The syntax for a semvername is very simple. A valid SemVerName has the form:
 
-NAME-SEMVER
+`NAME-SEMVER`
 
-where SEMVER is a valid Semantic Version, and NAME consists of alphanumeric characters, hyphens, and underscores.
+### 2.0.0
 
-Version 1.0.0 of SemVerName uses version 1.0.0 of SemVer.
-Version 2.0.0 of SemVerName uses version 2.0.0 of SemVer.
+* `NAME` consists of lowercase characters, hyphens, and underscores. It cannot be empty or begin with a hyphen or underscore.
+* `SEMVER` is a string that conforms to version 2.0.0 of SemVer.
+
+### 1.0.0
+
+* `NAME` consists of alphanumeric characters, hyphens, and underscores.
+* `SEMVER` is a string that conforms to version 1.0.0 of SemVer.
 
 (Yes, the SemVerName format is semantically versioned, just like the SemVer format is.)
 
