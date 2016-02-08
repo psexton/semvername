@@ -27,7 +27,7 @@ The syntax for a semvername is very simple. A valid SemVerName has the form:
 
 ### 2.0.0
 
-* `NAME` consists of lowercase characters, hyphens, and underscores. It cannot be empty or begin with a hyphen or underscore.
+* `NAME` consists of lowercase letters, digits, hyphens, and underscores. It cannot be empty or begin with a hyphen or underscore.
 * `SEMVER` is a string that conforms to version 2.0.0 of SemVer.
 
 ### 1.0.0
