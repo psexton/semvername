@@ -1,12 +1,12 @@
 semvername
 ==========
 
-A specification for semanticly versioned names. https://semvername.org
+A specification for semanticly versioned names. https://www.semvername.org
 
 Why Do Names Need To Be Versioned?
 ----------------------------------
 
-Semantic Versioning (or SemVer) is great. Version numbering for any project should use that. There's no need to reinvent it. If you haven't heard of Semantic Versioning, go spend 5 minutes at [semver.org](https://www.semver.org).
+Semantic Versioning (or SemVer) is great. Version numbering for any project should use that. There's no need to reinvent it. If you haven't heard of Semantic Versioning, go spend 5 minutes at [semver.org](https://semver.org).
 
 But sometimes just a version number isn't enough.
 
