@@ -1,12 +1,12 @@
 semvername
 ==========
 
-A specification for semanticly versioned names. http://semvername.org
+A specification for semanticly versioned names. https://www.semvername.org
 
 Why Do Names Need To Be Versioned?
 ----------------------------------
 
-Semantic Versioning (or SemVer) is great. Version numbering for any project should use that. There's no need to reinvent it. If you haven't heard of Semantic Versioning, go spend 5 minutes at [semver.org](http://www.semver.org).
+Semantic Versioning (or SemVer) is great. Version numbering for any project should use that. There's no need to reinvent it. If you haven't heard of Semantic Versioning, go spend 5 minutes at [semver.org](https://semver.org).
 
 But sometimes just a version number isn't enough.
 
@@ -57,4 +57,4 @@ In the meantime, restricting the character set for a valid SemVerName allows the
 License
 -------
 
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
